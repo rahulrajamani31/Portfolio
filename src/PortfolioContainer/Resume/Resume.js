@@ -78,13 +78,13 @@ const Resume = (props) => {
   ];
 
   const projectsDetails = [
-    {
-      title: "MedLifePro",
-      duration: { fromDate: "Nov 2022", toDate: "Present" },
-      description:
-        "With this project we developed an mobile app user interface between the patient and the doctor who can have an online conversation and book appoinment andalso we developed an ml model to predict the type of disease using symptoms and was integrated inside the application.",
-      subHeading: "Technologies Used: MongoDB, Node JS, Flutter ,Express Js.",
-    },
+    // {
+    //   title: "MedLifePro",
+    //   duration: { fromDate: "Nov 2022", toDate: "Present" },
+    //   description:
+    //     "With this project we developed an mobile app user interface between the patient and the doctor who can have an online conversation and book appoinment andalso we developed an ml model to predict the type of disease using symptoms and was integrated inside the application.",
+    //   subHeading: "Technologies Used: MongoDB, Node JS, Flutter ,Express Js.",
+    // },
     {
       title: "X-Ray Image Viewer and Editer ",
       duration: { fromDate: "Oct 2022", toDate: "Dec 2022" },
@@ -123,24 +123,34 @@ const Resume = (props) => {
         fromDate={"2017"}
         toDate={"2018"}
       />
+      <br></br>
+
+      <br></br>
     </div>,
 
     /* WORK EXPERIENCE */
     <div className="resume-screen-container" key="work-experience">
       <div className="experience-container">
+        <br></br>
+        <br></br>
+
+        <br></br>
+
         <ResumeHeading
           heading={"L&T India | Larsen & Toubro"}
           subHeading={"Consultancy Project"}
-          fromDate={"Coimbatore,India |November 2022"}
+          fromDate={"Coimbatore,India |June 2022"}
           toDate={"January 2023"}
         />
         <div className="experience-description">
           <span className="resume-description-text">
-            Worked on Qt C++ Software. We developed a Desktop Application using
-            Qt software where in the application is used to view the dicom
-            images in a 3D view and thus providing a easy way for the doctors to
-            view and analyze the dicom images and gather the information of the
-            patient’s Condition.
+            We developed a Desktop Application using Qt software where in the
+            application is used to view the dicom images in a 3D view and thus
+            providing a easy way for the doctors to view and analyze the dicom
+            images and gather the information of the patient’s Condition. Worked
+            on Deep learning - AI - Monai - Medical Related.This Project is
+            based on the segmentation of the liver and analyze them in a 3D
+            View.
           </span>
         </div>
         {/* <div className="experience-description">
@@ -161,7 +171,7 @@ const Resume = (props) => {
           // <br />
         </div> */}
       </div>
-      <br></br>
+      {/* <br></br>
       <div className="experience-container">
         <ResumeHeading
           className="Heading01"
@@ -179,6 +189,10 @@ const Resume = (props) => {
           </span>
         </div>
       </div>
+      <br></br> */}
+      <br></br>
+      <br></br>
+      <br></br>
     </div>,
 
     /* PROGRAMMING SKILLS */

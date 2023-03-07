@@ -1,9 +1,14 @@
-.home-container{
+
+
+.home-container {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* height: 50vh !important; */
     min-height: 670px;
     background-image: url("../../assets/Home/bg.jpg");
-
-}
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
