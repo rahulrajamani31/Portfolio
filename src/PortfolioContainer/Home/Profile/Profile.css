@@ -231,9 +231,14 @@
     transform: scale(1.07);
     transition: 1s ease-out;
 }
+
+.profile-detail .f-text{
+    color: rgb(255, 1, 1);
+}
 .colz .colz-icon i{
-    color: black;
-    padding: 8px;
+   
+    color: rgb(66, 60, 60);
+    padding: 23px;
     padding-left: 0px;
 }
 .colz .colz-icon i:hover{

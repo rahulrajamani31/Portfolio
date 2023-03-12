@@ -10,6 +10,7 @@ class Profile extends Component {
       <div className="profile-container">
         <div className="profile-parent">
           <div className="profile-detail">
+            <span className="highlighted-text">Follow</span>
             <div className="colz">
               <div className="colz-icon">
                 <a
